@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://project.raon-tech.com/repository/dl/md/cz/|ftp://raontech:raon1234qw!%40project.raon-tech.com/test/publish/|ftp://project.raon-tech.com/test/publish/|C:\Users\jpark\Desktop\Installation\|publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://support.raon-tech.com/dl/md/cz/|http://project.raon-tech.com/|\\project.raon-tech.com\test\publish\|\\test\repository\</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DebugSecurityZoneURL>http://support.raon-tech.com</DebugSecurityZoneURL>
+  </PropertyGroup>
+</Project>

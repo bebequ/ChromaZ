@@ -1,0 +1,18 @@
+﻿<Window x:Class="ChromaZ_WPF.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AboutWindow" Height="300" Width="400" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="30*" />
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Orientation="Horizontal">
+            <Label Name="lb_update" VerticalAlignment="Center">Version :</Label>
+            <TextBlock Name="tb_update" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
+        </StackPanel>
+        <TextBlock Name="tb_log" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        <Button Name="btn_update" Content="Update" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="btn_update_Click"/>
+    </Grid>
+</Window>
